@@ -3,27 +3,8 @@ layout: page
 title: About
 ---
 
-<p class="message">
-  Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
-</p>
+사실, 늦깍이 개발자로서 블로그 제작 자체는 좀 늦었다는 감도 있지만서도, 배운것들을 공책에 그냥 남기는것보다는 블로그나 웹사이트같은곳에 남겨야한다는 생각이 들어서 제작하게 되었습니다. 잘못된 부분이 많다면 죄송합니다. 댓글로 질문이나 피드백 주시면 즉각 답하고 반영하려 노력하겠습니다.
 
-In the novel, *The Strange Case of Dr. Jeykll and Mr. Hyde*, Mr. Poole is Dr. Jekyll's virtuous and loyal butler. Similarly, Poole is an upstanding and effective butler that helps you build Jekyll themes. It's made by [@mdo](https://twitter.com/mdo).
-
-There are currently two themes built on Poole:
-
-* [Hyde](http://hyde.getpoole.com)
-* [Lanyon](http://lanyon.getpoole.com)
-
-Learn more and contribute on [GitHub](https://github.com/poole).
-
-## Setup
-
-Some fun facts about the setup of this project include:
-
-* Built for [Jekyll](https://jekyllrb.com)
-* Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
-* Coded with [Atom](https://atom.io)
-
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/poole/issues/new) or [ask me on Twitter](https://twitter.com/mdo).
+I love drawing, gaming, and coding. I know that I am a greedy person to like all three of those, but I do wanna get better at them and keep learning about them. This blog will mainly focus on the three categories. Please leave a comment or any feedbacks on any of the posts as you like.
 
 Thanks for reading!
