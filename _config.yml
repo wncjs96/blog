@@ -1,0 +1,22 @@
+# Setup
+title:               GIGO MIND
+tagline:             'DEV BLOG'
+description:         'A personal blog about the dev processes found at <a href="https://wncjs96.github.io" target="_blank">FINDING GIGO</a> and the technical and daily findings that I find useful. Secret Art Gallery is around somewhere. Twitter: <a href="https://wncjs96.github.io" target="_blank">@KuroMouse</a>.'
+url:                 ""
+baseurl:             '/blog'
+paginate:            5
+permalink:           pretty
+
+# About/contact
+author:
+  name:              Ju Cheun Lee
+  url:               https://wncjs96.github.io
+  email:             wncjs96@gmail.com
+
+# Gems
+plugins:
+  - jekyll-paginate
+
+# Custom vars
+version:             1.1.0
+google_analytics_id: #UA-XXXX-Y
