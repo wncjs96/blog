@@ -1,6 +1,6 @@
 ---
 layout: post
-title: SQL 기초 문법
+title: SQL Basic Syntax
 date: 2021-07-08 19:31:00
 ---
 
