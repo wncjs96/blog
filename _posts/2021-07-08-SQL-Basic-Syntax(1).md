@@ -1,6 +1,6 @@
 ---
 layout: post
-title: SQL Basic Syntax
+title: SQL Basic Syntax(1)
 date: 2021-07-08 19:31:00
 ---
 
