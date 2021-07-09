@@ -1,7 +1,7 @@
 ---
 layout: post
-title: SQL Basic Syntax(1)
-date: 2021-07-08 20:52:00
+title: SQL Basic Syntax(2)
+date: 2021-07-08 22:52:00
 ---
 
 ## SELECT를 공부하기 전.
