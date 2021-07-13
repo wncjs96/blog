@@ -49,3 +49,17 @@ Binary Search 와 같이 어떤 리스트를 반으로 나눠서 진행하는 �
 즉 쉽게 말하면, log(n)의 방식을 쓰는 알고리즘이 전체 리스트를 수정하는게 보이면 그것은 n log n의 시간을 쓴다고 쉽게 파악 할 수 있다.
 
 이렇게 생각하면 알고리즘의 답을 반은 알고가는 셈인것이다.
+
+------------------
+다음은 내가 찾은 time complexity 예시들이다.
+
+이 포스트에 있는것들만 외워도 반은 간다.
+
+- O(n!) [Factorial time]: Permutations of 1 ... n
+- O(2n) [Exponential time]: Exhaust all subsets of an array of size n
+- O(n3) [Cubic time]: Exhaust all triangles with side length less than n
+- O(n2) [Quadratic time]: Slow comparison-based sorting (eg. Bubble Sort, Insertion Sort, Selection Sort)
+- O(n log n) [Linearithmic time]: Fast comparison-based sorting (eg. Merge Sort)
+- O(n) [Linear time]: Linear Search (Finding maximum/minimum element in a 1D array), Counting Sort
+- O(log n) [Logarithmic time]: Binary Search, finding GCD (Greatest Common Divisor) using Euclidean Algorithm
+- O(1) [Constant time]: Calculation (eg. Solving linear equations in one unknown)
