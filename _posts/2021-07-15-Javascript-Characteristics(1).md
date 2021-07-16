@@ -4,28 +4,28 @@ title: Javascript Characteristics(1)
 date: 2021-07-15 19:29:00
 ---
 
-¸®¾×Æ®³ª Jquery °ü·Ã ±ÛÀ» Æ÷½ºÆ® ÇÏ±âÀü¿¡ JSÀÇ Æ¯Â¡¿¡ ´ëÇØ ¿Ã·Á¾ß ÇÑ´Ù´Â »ý°¢ÀÌ µé¾ú´Ù.  
+ë¦¬ì•¡íŠ¸ë‚˜ Jquery ê´€ë ¨ ê¸€ì„ í¬ìŠ¤íŠ¸ í•˜ê¸°ì „ì— JSì˜ íŠ¹ì§•ì— ëŒ€í•´ ì˜¬ë ¤ì•¼ í•œë‹¤ëŠ” ìƒê°ì´ ë“¤ì—ˆë‹¤.  
 
 -----------------
 
-### ÀÚ¹Ù½ºÅ©¸³Æ®?
+### ìžë°”ìŠ¤í¬ë¦½íŠ¸?
 
-³ª¿¡°Ô ÀÚ¹Ù½ºÅ©¸³Æ®¶õ..   
+ë‚˜ì—ê²Œ ìžë°”ìŠ¤í¬ë¦½íŠ¸ëž€..   
 
- HTML,CSS¿Í °°Àº DOM ÀÚÃ¼¸¦ ¼öÁ¤½ÃÅ°´Â FRONT-END¿Í Node.jsµîÀ» ÅëÇØ RDBMS¿Í Á÷Á¢Àû Åë½ÅÀ» ÅëÇØ µ¥ÀÌÅÍ¸¦ ³Ö°í ¹Þ¾Æ¿À´Â BACK-END µÑ ´Ù ¼ÒÈ­ÇÒ ¼ö ÀÖ´Â ¸¸´É ¾ð¾îÀÌ´Ù.  
+ HTML,CSSì™€ ê°™ì€ DOM ìžì²´ë¥¼ ìˆ˜ì •ì‹œí‚¤ëŠ” FRONT-ENDì™€ Node.jsë“±ì„ í†µí•´ RDBMSì™€ ì§ì ‘ì  í†µì‹ ì„ í†µí•´ ë°ì´í„°ë¥¼ ë„£ê³  ë°›ì•„ì˜¤ëŠ” BACK-END ë‘˜ ë‹¤ ì†Œí™”í•  ìˆ˜ ìžˆëŠ” ë§ŒëŠ¥ ì–¸ì–´ì´ë‹¤.  
 
 ------------------- 
 
-###  Á¶±Ý Æ¯º°ÇÑ ±âÃÊ µ¥ÀÌÅÍ Å¸ÀÔ
+###  ì¡°ê¸ˆ íŠ¹ë³„í•œ ê¸°ì´ˆ ë°ì´í„° íƒ€ìž…
 
-¶ÇÇÑ, Strongly typed°¡ ¾Æ´Ñ ¾ð¾î·Î¼­, varÀÌ³ª letÀ¸·Î º¯¼ö(property)¸¦ ÅüÃÄ¹ö¸°´Ù´Â °ÍÀÌ Âü ÆíÀÌÇÏ´Ù°í º¼ ¼ö ÀÖ´Ù.  
+ë˜í•œ, Strongly typedê°€ ì•„ë‹Œ ì–¸ì–´ë¡œì„œ, varì´ë‚˜ letìœ¼ë¡œ ë³€ìˆ˜(property)ë¥¼ í‰ì³ë²„ë¦°ë‹¤ëŠ” ê²ƒì´ ì°¸ íŽ¸ì´í•˜ë‹¤ê³  ë³¼ ìˆ˜ ìžˆë‹¤.  
 
-ÇÔ¼ö(method)´Â function ÀÌ¶ó´Â prefix¸¦ ÀÌ¿ë, strongly typed°¡ ¾Æ´ÑÁö¶ó return type°°Àº °ÍÀ» ³ªÅ¸³»Áö ¾Ê´Â´Ù.  
-ÇÔ¼ö ÀÚÃ¼¸¦ parameter·Î º¸³¾ ¼öµµ ÀÖÀ¸¸ç, call back functionÀÌ¶ó´Â ÇÔ¼ö ÀÚÃ¼¸¦ º¯¼ö·Î¼­ ÀúÀåÇÒ ¼ö ÀÖ´Â ±¸Á¶µµ ÀÖ´Ù. ÀÌ µÎ °¡Áö´Â °°Àº ±¸Á¶¸¦ °¡Áö±â ¶§¹®¿¡ parameter ·Î º¸³»Áö´Â ÇÔ¼ö ¶Ç´Â call back ÇÔ¼öÀÇ ÀÌ¸§¿¡´Â ()°¡ µé¾î°¡Áö ¾Ê´Â´Ù.  
+í•¨ìˆ˜(method)ëŠ” function ì´ë¼ëŠ” prefixë¥¼ ì´ìš©, strongly typedê°€ ì•„ë‹Œì§€ë¼ return typeê°™ì€ ê²ƒì„ ë‚˜íƒ€ë‚´ì§€ ì•ŠëŠ”ë‹¤.  
+í•¨ìˆ˜ ìžì²´ë¥¼ parameterë¡œ ë³´ë‚¼ ìˆ˜ë„ ìžˆìœ¼ë©°, call back functionì´ë¼ëŠ” í•¨ìˆ˜ ìžì²´ë¥¼ ë³€ìˆ˜ë¡œì„œ ì €ìž¥í•  ìˆ˜ ìžˆëŠ” êµ¬ì¡°ë„ ìžˆë‹¤. ì´ ë‘ ê°€ì§€ëŠ” ê°™ì€ êµ¬ì¡°ë¥¼ ê°€ì§€ê¸° ë•Œë¬¸ì— parameter ë¡œ ë³´ë‚´ì§€ëŠ” í•¨ìˆ˜ ë˜ëŠ” call back í•¨ìˆ˜ì˜ ì´ë¦„ì—ëŠ” ()ê°€ ë“¤ì–´ê°€ì§€ ì•ŠëŠ”ë‹¤.  
 ```
-Javascript¿¡¼­ÀÇ callback
+Javascriptì—ì„œì˜ callback
 <script>
-//ÇÔ¼ö ¸¸µé±â
+//í•¨ìˆ˜ ë§Œë“¤ê¸°
 function isOdd(num){
 	if (nun % 2 == 0) return false;
 	return true; 
@@ -38,20 +38,20 @@ someother(isOdd, 1);
 
 </script>
 ```
-ÀÚ¹Ù¿¡¼­´Â ÀÌ¿Í °°Àº ±â´ÉÀ» ±¸ÇöÇÏ±â À§ÇØ¼­´Â abstractionÀ» ÀÌ¿ëÇØ¾ßÇÑ´Ù.  
-½±°Ô ¸»ÇØ¼­, functionÀ» ÇÏ³ªÀÇ parameter·Î º¸³»±â À§ÇØ¼­´Â ±× functionÀÇ ±¸Á¶¸¦ ¾î´ÀÁ¤µµ´Â abstract ÇÏ°Ô ³ªÅ¸³»ÁÖ´Â Interface¸¦ ÇÏ³ª ¸¸µé¾î¾ß ÇÏ¸ç, ±×·¸°Ô ¸¸µé¾îÁø interfaceÀÇ ¾È¿¡ ¸Þ¼Òµå·Î¼­ call back function°ú ºñ½ÁÇÑ ±â´ÉÀ» ¸¸µé¾î ³õ´Â °ÍÀÌ´Ù.  
-´Ù¸¥ ¸Þ¼Òµå¿¡ ÀÎÅÍÆäÀÌ½º¸¦ ³Ö¾î ÁÖ°í ½Í´Ù¸é, µû·Î ÀÎÅÍÆäÀÌ½ºÀÇ instance¸¦ ÇÏ³ª ¸¸µé°í, ±× instance¸¦ parameter·Î ³Ö¾î Áà¾ßÇÑ´Ù.  
-¹Ý´ë·Î ´Ù¸¥ ¸Þ¼Òµå¿¡¼­´Â argument·Î ±× ±â´ÉÀ» ¹Þ¾Æ ¿À±â À§ÇØ¼­ ÀÎÅÍÆäÀÌ½ºÀÇ ÀÌ¸§À» Å¸ÀÔÀ¸·Î ÁöÁ¤ÇÏ¿© º¯¼ö¸¦ ¹Þ¾Æ¿À°í, ±× º¯¼öÀÇ method¸¦ ÀÌ¿ëÇÏ´Â ¹æ½ÄÀÌ ÀÖ´Ù.  
+ìžë°”ì—ì„œëŠ” ì´ì™€ ê°™ì€ ê¸°ëŠ¥ì„ êµ¬í˜„í•˜ê¸° ìœ„í•´ì„œëŠ” abstractionì„ ì´ìš©í•´ì•¼í•œë‹¤.  
+ì‰½ê²Œ ë§í•´ì„œ, functionì„ í•˜ë‚˜ì˜ parameterë¡œ ë³´ë‚´ê¸° ìœ„í•´ì„œëŠ” ê·¸ functionì˜ êµ¬ì¡°ë¥¼ ì–´ëŠì •ë„ëŠ” abstract í•˜ê²Œ ë‚˜íƒ€ë‚´ì£¼ëŠ” Interfaceë¥¼ í•˜ë‚˜ ë§Œë“¤ì–´ì•¼ í•˜ë©°, ê·¸ë ‡ê²Œ ë§Œë“¤ì–´ì§„ interfaceì˜ ì•ˆì— ë©”ì†Œë“œë¡œì„œ call back functionê³¼ ë¹„ìŠ·í•œ ê¸°ëŠ¥ì„ ë§Œë“¤ì–´ ë†“ëŠ” ê²ƒì´ë‹¤.  
+ë‹¤ë¥¸ ë©”ì†Œë“œì— ì¸í„°íŽ˜ì´ìŠ¤ë¥¼ ë„£ì–´ ì£¼ê³  ì‹¶ë‹¤ë©´, ë”°ë¡œ ì¸í„°íŽ˜ì´ìŠ¤ì˜ instanceë¥¼ í•˜ë‚˜ ë§Œë“¤ê³ , ê·¸ instanceë¥¼ parameterë¡œ ë„£ì–´ ì¤˜ì•¼í•œë‹¤.  
+ë°˜ëŒ€ë¡œ ë‹¤ë¥¸ ë©”ì†Œë“œì—ì„œëŠ” argumentë¡œ ê·¸ ê¸°ëŠ¥ì„ ë°›ì•„ ì˜¤ê¸° ìœ„í•´ì„œ ì¸í„°íŽ˜ì´ìŠ¤ì˜ ì´ë¦„ì„ íƒ€ìž…ìœ¼ë¡œ ì§€ì •í•˜ì—¬ ë³€ìˆ˜ë¥¼ ë°›ì•„ì˜¤ê³ , ê·¸ ë³€ìˆ˜ì˜ methodë¥¼ ì´ìš©í•˜ëŠ” ë°©ì‹ì´ ìžˆë‹¤.  
 ```
-Java¿¡¼­ÀÇ callback(?)
+Javaì—ì„œì˜ callback(?)
 
-// ÀÎÅÍÆäÀÌ½º ±¸Á¶ abstraction
+// ì¸í„°íŽ˜ì´ìŠ¤ êµ¬ì¡° abstraction
 interface Example {
 	boolean isOdd(num) {
 		return num %2 == 0  ? false : true;
 	};
 }
-// ÀÎÅÍÆäÀÌ½º instance
+// ì¸í„°íŽ˜ì´ìŠ¤ instance
 Example e = new Example();
 
 // passing instance as a parameter
@@ -63,10 +63,10 @@ public boolean method (Example eF, int num) {
 }
 ```
 
-ÀÚ¹Ù½ºÅ©¸³Æ®¿¡¼­ÀÇ Object´Â º¯¼ö(property)¿Í ÇÔ¼ö(method)¸¦ ¸ð¾Æ ¸¸µç ÇÏ³ªÀÇ °´Ã¼ÀÌ´Ù.
-propertyÀÇ ºÎºÐÀº ´Ù¸¥ ¸»·Î ÇÏ¸é k-v pair, Áï ´Ù¸¥ ¾ð¾îµéÀÇ map°ú µ¿ÀÏÇÏ´Ù.
-dot notation, key ºÎºÐ¿¡ quote°¡ ÇÊ¿ä¾øÀ½. °ú bracket notation, key ºÎºÐ¿¡ quote °¡ ÇÊ¿äÇÔÀ» ÅëÇØ vÀ» ¾ò¾î ³¾ ¼ö ÀÖ´Ù. quote´Â double-quote¿Í single-quote°¡ µÑ´Ù ¾²ÀÏ ¼ö ÀÖ´Ù. SQLÀº ¹®ÀÚ¿­À» À§ÇØ single-quote ¸¸ ¾²°í, ¾î¶² ¾ð¾îµéÀº double-quote¸¦ ¾´´Ù´Â Á¡À» »ý°¢ÇÏ¸é Âü.. ´ä´äÇØÁø´Ù.  
-ÇÔ¼ö ºÎºÐÀº ´Ù¸¥ ¿ÀºêÁ§Æ®, Áï Å¬·¡½ºÀÇ ¸Þ¼Òµå¿Í µ¿ÀÏÇÏ´Ù. Å¬·¡½º¿Í µ¿ÀÏÇÏ±â¿¡ python ÀÇ self, javaÀÇ this ¿Í µ¿ÀÏÇÑ this °¡ Á¸ÀçÇÑ´Ù.
+ìžë°”ìŠ¤í¬ë¦½íŠ¸ì—ì„œì˜ ObjectëŠ” ë³€ìˆ˜(property)ì™€ í•¨ìˆ˜(method)ë¥¼ ëª¨ì•„ ë§Œë“  í•˜ë‚˜ì˜ ê°ì²´ì´ë‹¤.
+propertyì˜ ë¶€ë¶„ì€ ë‹¤ë¥¸ ë§ë¡œ í•˜ë©´ k-v pair, ì¦‰ ë‹¤ë¥¸ ì–¸ì–´ë“¤ì˜ mapê³¼ ë™ì¼í•˜ë‹¤.
+dot notation, key ë¶€ë¶„ì— quoteê°€ í•„ìš”ì—†ìŒ. ê³¼ bracket notation, key ë¶€ë¶„ì— quote ê°€ í•„ìš”í•¨ì„ í†µí•´ vì„ ì–»ì–´ ë‚¼ ìˆ˜ ìžˆë‹¤. quoteëŠ” double-quoteì™€ single-quoteê°€ ë‘˜ë‹¤ ì“°ì¼ ìˆ˜ ìžˆë‹¤. SQLì€ ë¬¸ìžì—´ì„ ìœ„í•´ single-quote ë§Œ ì“°ê³ , ì–´ë–¤ ì–¸ì–´ë“¤ì€ double-quoteë¥¼ ì“´ë‹¤ëŠ” ì ì„ ìƒê°í•˜ë©´ ì°¸.. ë‹µë‹µí•´ì§„ë‹¤.  
+í•¨ìˆ˜ ë¶€ë¶„ì€ ë‹¤ë¥¸ ì˜¤ë¸Œì íŠ¸, ì¦‰ í´ëž˜ìŠ¤ì˜ ë©”ì†Œë“œì™€ ë™ì¼í•˜ë‹¤. í´ëž˜ìŠ¤ì™€ ë™ì¼í•˜ê¸°ì— python ì˜ self, javaì˜ this ì™€ ë™ì¼í•œ this ê°€ ì¡´ìž¬í•œë‹¤.
 ```	
 	var obj = new Object();
 	var obj ={};
