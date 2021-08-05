@@ -1,7 +1,7 @@
 ---
 layout: post
 title: SQL Basic Syntax(4)
-date: 2021-07-08 23:52:00
+date: 2021-07-25 01:52:00
 ---
 
 ## Join 개념 정리
